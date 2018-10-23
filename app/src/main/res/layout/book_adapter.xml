@@ -1,0 +1,402 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="1,2,3,4,5,6,7">
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Weather Report"
+            android:textSize="18dp"
+            android:textStyle="bold" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView21"
+            android:text=""
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView22"
+            android:gravity="center"
+            android:text="S"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView23"
+            android:gravity="center"
+            android:text="M"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView24"
+            android:gravity="center"
+            android:text="T"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView25"
+            android:gravity="center"
+            android:text="W"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:gravity="center"
+            android:text="T"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:gravity="center"
+            android:text="F"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+        <TextView
+            android:id="@+id/textView28"
+            android:gravity="center"
+            android:text="S"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowDates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextViewd1"
+            android:text=""
+            android:layout_height="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextViewd2"
+            android:gravity="center"
+            android:text="28/11"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextViewd3"
+            android:gravity="center"
+            android:text="29/11"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextViewd4"
+            android:gravity="center"
+            android:text="30/11"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextViewd5"
+            android:gravity="center"
+            android:text="1/12"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewd6"
+            android:gravity="center"
+            android:text="2/12"
+            android:typeface="serif" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewd7"
+            android:gravity="center"
+            android:text="3/12"
+            android:typeface="serif" >
+        </TextView>
+        <TextView
+            android:id="@+id/textViewd8"
+            android:gravity="center"
+            android:text="4/12"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+
+
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView31"
+            android:text=" Breakfast"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_height="35dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:gravity="center_horizontal"
+            android:text="34°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:gravity="center_horizontal"
+            android:text="35°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:gravity="center_horizontal"
+            android:text="34°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:gravity="center_horizontal"
+            android:text="35°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:gravity="center_horizontal"
+            android:text="33°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:gravity="center_horizontal"
+            android:text="35°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:gravity="center_horizontal"
+            android:text="33°C" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView41"
+            android:text=" Lunch"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_height="35dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView42"
+            android:gravity="center_horizontal"
+            android:text="28°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView43"
+            android:gravity="center_horizontal"
+            android:text="27°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView44"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView45"
+            android:gravity="center_horizontal"
+            android:text="26°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView46"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView47"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView48"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView51"
+            android:text=" Dinner"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_height="35dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView52"
+            android:gravity="center_horizontal"
+            android:text="28°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView53"
+            android:gravity="center_horizontal"
+            android:text="27°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView54"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView55"
+            android:gravity="center_horizontal"
+            android:text="26°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView56"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView57"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView58"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView61"
+            android:text=" Before Sleep"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_height="35dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView62"
+            android:gravity="center_horizontal"
+            android:text="28°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView63"
+            android:gravity="center_horizontal"
+            android:text="27°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView64"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView65"
+            android:gravity="center_horizontal"
+            android:text="26°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView66"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView67"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView68"
+            android:gravity="center_horizontal"
+            android:text="29°C" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="match_parent"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text=" "
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="20dp">
+        </TextView>
+    </TableRow>
+
+
+
+
+</TableLayout>

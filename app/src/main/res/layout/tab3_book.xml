@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.stratos.dbtv02.MedBook$PlaceholderFragment">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:textIsSelectable="true"
+        android:text="Select Date"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:id="@+id/date1" />
+
+    <Button
+        android:id="@+id/displayBtn"
+
+        android:text="DISPLAY MED-BOOK"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/save_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="To:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/date1"
+        android:layout_alignStart="@+id/date1"
+        android:layout_marginTop="36dp"
+        android:layout_alignEnd="@+id/date1" />
+
+    <TextView
+        android:text="From:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/date1"
+        android:layout_alignEnd="@+id/date1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Select Date"
+        android:ems="10"
+        android:inputType="none"
+        android:textIsSelectable="true"
+        android:id="@+id/date2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+</RelativeLayout>

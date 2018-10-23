@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:text="19:30"
+        android:layout_width="209dp"
+        android:id="@+id/txtHour"
+        android:gravity="center"
+        android:layout_height="109dp"
+        android:textSize="40sp"
+        android:textColorLink="?attr/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="0.35" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:focusable="false"
+        android:layout_weight="0.35"
+        android:backgroundTint="@color/colorAccent" />
+
+
+</LinearLayout>

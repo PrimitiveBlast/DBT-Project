@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stratos.dbtv02.MedBook$PlaceholderFragment">
+
+
+    <ImageView
+        app:srcCompat="@drawable/empty_profile"
+        android:id="@+id/imageView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp">
+
+        <TextView
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/n1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/n1"
+            android:layout_alignParentStart="true"
+            android:id="@+id/editName"
+            android:layout_alignParentEnd="true"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+        <TextView
+            android:text="Surname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editName"
+            android:layout_alignParentStart="true"
+            android:id="@+id/n2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/n2"
+            android:layout_alignParentStart="true"
+            android:id="@+id/editSurname"
+            android:layout_alignParentEnd="true"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+        <TextView
+            android:text="Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editSurname"
+            android:layout_alignParentStart="true"
+            android:id="@+id/n3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/n3"
+            android:layout_alignParentStart="true"
+            android:id="@+id/editAddress"
+            android:layout_alignParentEnd="true"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+        <TextView
+            android:text="Phone Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editAddress"
+            android:id="@+id/n4" />
+
+        <TextView
+            android:text="E-mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editPhone"
+            android:layout_alignParentStart="true"
+            android:id="@+id/n5" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/n5"
+            android:layout_alignParentStart="true"
+            android:id="@+id/editMail"
+            android:layout_alignParentEnd="true"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+
+        <Button
+            android:id="@+id/displayBtn"
+
+            android:text="SAVE"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:background="@drawable/save_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editPhone"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:layout_below="@+id/n4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
